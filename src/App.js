@@ -1,13 +1,17 @@
-import { Download, Features, SectionWrapper } from "./components";
+import { Download, Features, SectionWrapper } from './components';
+import assets from './assets'
 
 const App = () => {
     return (
-        <div className="App">
-            <h1 className="text-3xl font-bold underline">React Native NFT Showcase</h1>
-            <Download />
-            <Features />
-            <SectionWrapper />
-        </div>
+        <>
+            <SectionWrapper 
+                title="Discover what's trending"
+                description="Collect, sell, exchange, and earn stunning NFTs. Download the app to join the 25+ million people using the world's coolest NFT marketplace."
+                showBtn
+                mockupImg={assets.homeHero}
+                banner='banner'
+            />
+        </>
     );
 }
 
