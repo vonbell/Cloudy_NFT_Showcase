@@ -5,7 +5,7 @@ const App = () => {
     return (
         <>
             <SectionWrapper
-                logo={assets.logo} 
+                showLogo
                 title="Discover what's trending"
                 description="Collect, sell, exchange, and earn stunning NFTs. Download the app to join the 25+ million people using the world's coolest NFT marketplace."
                 showBtn

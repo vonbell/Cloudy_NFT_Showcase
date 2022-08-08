@@ -3,7 +3,7 @@ import styles from '../styles/Global';
 import assets from '../assets';
 import Button from './Button';
 
-const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, reverse, logo }) => {
+const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, reverse, showLogo }) => {
     return (
         <div className={`min-h-screen ${styles.section} ${reverse ? styles.bgWhite : styles.bgPrimary} ${banner}`}>
             
@@ -11,7 +11,9 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
             <div className={`flex items-center w-11/12 sm:w-full minmd:w-3/4 ${reverse ? styles.boxReverseClass : styles.boxClass}`}>
                 <div className={`${styles.descDiv} ${reverse ? " fadeRightMini" : " fadeLeftMini"} ${reverse ? styles.textRight : styles.textLeft}`}>
                     {/* Logo */}
-                    <img src={logo} alt="Cloudy_logo" className={`img-fluid`} />
+                    {showLogo && (
+                        <img src={assets.logo} alt="Cloudy_logo" className={`img-fluid`} />
+                    )}
                     
                     {/* Titles */}
                     <h1 className={`${styles.h1Text} ${reverse ? styles.blackText : styles.whiteText} mt-1`}>
