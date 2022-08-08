@@ -11,6 +11,12 @@ const App = () => {
                 mockupImg={assets.homeHero}
                 banner='banner'
             />
+            <SectionWrapper 
+                title="Smart User Interface Marketplace"
+                description="Experience the beautiful UI of Cloudy NFT Marketplace. Smooth and constant colors of a fluid UI design."
+                mockupImg={assets.homeCards}
+                reverse
+            />
         </>
     );
 }
