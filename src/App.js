@@ -17,6 +17,20 @@ const App = () => {
                 mockupImg={assets.homeCards}
                 reverse
             />
+            <Features />
+            <SectionWrapper 
+                title="Deployment"
+                description="Cloudy was built using Expo which runs natively on all devices."
+                mockupImg={assets.feature}
+                reverse
+            />
+            <SectionWrapper 
+                title="Creative way to showcase the store"
+                description="The app contains 2 screens. The first screen lists all NFTs while the second screen shows the details of a specific NFT."
+                mockupImg={assets.mockup}
+                banner='banner02'
+            />
+            <Download />
         </>
     );
 }
