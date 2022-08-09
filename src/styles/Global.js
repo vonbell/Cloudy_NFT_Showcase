@@ -14,7 +14,7 @@ const styles = {
     h1Text:
         "font-bold font-IBMPlex text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13",
     h1Text2:
-        "font-bold font-IBMPlex text-4xl sm:text-3xl minmd:text-5xl minlg:text-7xl leading-11 minmd:leading-12",
+        "font-bold font-IBMPlex text-3xl sm:text-2xl minmd:text-4xl minlg:text-6xl leading-10 minmd:leading-11",
     pText:
         "my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16",
     descriptionText:
@@ -24,11 +24,11 @@ const styles = {
     btnPrimary:
         "bg-primary mt-4 py-4 px-6 text-white text-lg minmd:text-2xl font-IBMPlex font-medium rounded-lg hover:shadow-2xl",
     btnBlack:
-        "bg-black flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer",
+        "bg-black flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer hover:bg-gray-900 hover:shadow-lg",
     btnBlack2:
         "bg-black btn-lg flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer",
     btnWhite:
-        "bg-white btn-lg flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer",
+        "bg-white rounded-full shadow-md flex items-center py-1 px-1 rounded-md mt-2 w-fit cursor-pointer border-2 border-gray-700 hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out",
 
     section: "flex justify-center items-center p-16 sm:p-8",
     subSection: "flex items-center w-full minmd:w-3/4",
@@ -40,7 +40,7 @@ const styles = {
     fullImg: "w-full h-full object-cover",
     sectionImg: "w-full h-full minmd:w-11/12 minmd:h-11/12 object-contain",
     btnIcon: "w-5 h-5 minmd:w-10 minmd:h-10 object-contain",
-    btnIcon2: "w-12 h-12 minmd:w-15 minmd:h-15 object-contain img-fluid",
+    btnIcon2: "w-10 h-10 minmd:w-13 minmd:h-13 object-contain img-fluid",
 
     featureImg: "w-20 h-20 minlg:w-40 minlg:h-40 object-contain mb-1",
     featureText:

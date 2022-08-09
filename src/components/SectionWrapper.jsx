@@ -12,11 +12,11 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
                 <div className={`${styles.descDiv} ${reverse ? " fadeRightMini" : " fadeLeftMini"} ${reverse ? styles.textRight : styles.textLeft}`}>
                     {/* Logo */}
                     {showLogo && (
-                        <img src={assets.logo} alt="Cloudy_logo" className={`img-fluid`} />
+                        <img src={assets.logo} alt="Cloudy_logo" className={`img-fluid pb-1 mb-2`} />
                     )}
                     
                     {/* Titles */}
-                    <h1 className={`${styles.h1Text} ${reverse ? styles.blackText : styles.whiteText} mt-1`}>
+                    <h1 className={`${styles.h1Text} ${reverse ? styles.blackText : styles.whiteText}`}>
                         {title}
                     </h1>
 

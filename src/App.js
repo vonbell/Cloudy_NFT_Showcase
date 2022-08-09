@@ -19,7 +19,6 @@ const App = () => {
                 mockupImg={assets.homeCards}
                 reverse
             />
-            <Features />
             <SectionWrapper 
                 title="Deployment"
                 description="Cloudy was built using Expo, which runs natively on all your users' devices."
@@ -32,6 +31,7 @@ const App = () => {
                 mockupImg={assets.mockup}
                 banner='banner02'
             />
+            {/* <Features /> */}
             <Download />
 
             {/* Footer */}
