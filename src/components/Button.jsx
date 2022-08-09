@@ -4,7 +4,7 @@ import styles from '../styles/Global';
 const Button = ({ assetUrl, link }) => {
     return (
         <div 
-            className={styles.btnBlack}
+            className={`${styles.btnBlack}`}
             onClick={() => window.open(link, 'blank')}>
                 
             <img src={assetUrl} alt="expo_icon" className={styles.btnIcon} />
